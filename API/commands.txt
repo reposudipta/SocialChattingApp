@@ -1,0 +1,57 @@
+************ Creating an dotnet application *************
+//make a directory
+mkdir SocialChattingApp
+
+//get the information on dotnet versions installed in machine
+dotnet info
+
+//dotnet help for new commands
+dotnet -h
+
+//What We can do with the new command
+dotnet new -h
+
+//create a new solution
+dotnet new sln
+
+//list the directiories
+dir
+
+//create an api project inside an API folder
+dotnet new webapi -o API
+
+//add API project to the solution
+dotnet sln add API
+
+
+************** visual studio code *****************
+//run application
+dotnet run
+
+//watch any changes to the application when running the application
+dotnet watch run
+
+//stop running application
+control + c
+
+************** Trusted Certificate ****************
+//make the certificate trusted
+dotnet dev-certs https --trust
+
+*********Create Migrations with dotnet entityframework core using provider Sqlite**********
+dotnet ef migrations add InitialCreate -o Data/Migrations
+
+*********Update Database with entity framework core**********
+dotnet ef database update
+
+**********install angular***********
+npm install -g @angular/cli
+//To install specific version of angular
+npm install -g @angular/cli@10.1.0
+
+**********install bootstrap**********
+//This will make changes to angular.json package.json
+ng add ngx-bootstrap
+
+**********install font-awesome*******
+npm install font-awesome
