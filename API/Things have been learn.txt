@@ -1,0 +1,7 @@
+AddSingleton - It creates and instatiated for dependency injection. When it creates it
+does not stop untill the application stops.
+
+AddScoped - It is a scoped for the lifetime of a http request. When the request is
+finished the service is disposed.
+
+AddTransient - service is created and destroyed as soon as the method is finished.

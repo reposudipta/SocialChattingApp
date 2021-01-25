@@ -44,6 +44,9 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 *********Update Database with entity framework core**********
 dotnet ef database update
 
+*********Drop Database with entity framework core***********
+dotnet ef database drop
+
 **********install angular***********
 npm install -g @angular/cli
 //To install specific version of angular
