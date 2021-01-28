@@ -12,6 +12,7 @@ namespace API.Services
 {
     public class TokenService : ITokenService
     {
+        // Symmetric encryption key to encrypt and decrypt on both sides
         private readonly SymmetricSecurityKey _key;
         public TokenService(IConfiguration config)
         {

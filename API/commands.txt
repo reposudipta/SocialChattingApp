@@ -58,3 +58,9 @@ ng add ngx-bootstrap
 
 **********install font-awesome*******
 npm install font-awesome
+
+********** Create Component Angular *************
+//angular help for new commands
+cd src/app
+//Create a new component in angular
+ng g c component-name --skip-tests
