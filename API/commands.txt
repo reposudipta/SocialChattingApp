@@ -62,5 +62,12 @@ npm install font-awesome
 ********** Create Component Angular *************
 //angular help for new commands
 cd src/app
-//Create a new component in angular
+//Create a new component in angular(without test file)
 ng g c component-name --skip-tests
+//install toastr service for notification
+npm install ngx-toastr
+//install auth guard in angular
+ng g guard auth --skip-tests
+(press canActivate to activate route guard)
+//install bootswatch for free bootstrap theme
+npm install bootswatch
