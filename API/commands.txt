@@ -71,3 +71,5 @@ ng g guard auth --skip-tests
 (press canActivate to activate route guard)
 //install bootswatch for free bootstrap theme
 npm install bootswatch
+//create interceptor in angular
+ng g interceptor interceptor-name --skip-tests
